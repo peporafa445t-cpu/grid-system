@@ -1,0 +1,74 @@
+.container{
+display: grid;
+
+ grid-template-areas:"header header header header header header "
+  "side side con1 con1 con1 con1 "
+ "side side con2 con2 con3 con3"
+  "footer footer footer footer footer footer  ";
+  gap: 10px;
+}  
+   
+.header{
+    grid-area: header;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 30px;
+   text-align: center;
+   height: 200px;
+}
+.side{
+    grid-area: side ;
+    background-color: blue;
+     font-weight: bold;
+    padding: 30px;
+   text-align: center;
+   height: 400pxpx;
+}
+.con1{
+    grid-area:con1;
+    background-color: brown;
+     font-weight: bold;
+    padding: 30px;
+   text-align: center;
+    height: 200px;
+}
+/* .side{
+    grid-area: side ;
+    background-color: blue;
+     font-weight: bold;
+    padding: 30px;
+   text-align: center;
+   height: 200px;
+} */
+
+
+
+
+
+
+.con2{
+    grid-area: con2;
+    background-color: red;
+     font-weight: bold;
+    padding: 30px;
+   text-align: center;
+    height: 200px;
+}
+.con3{
+    grid-area:con3;
+    background-color: green;
+     font-weight: bold;
+    padding: 30px;
+   text-align: center;
+    height: 200px;
+}
+.footer{
+    grid-area:footer;
+    background-color: yellow;
+     font-weight: bold;
+    padding: 30px;
+   text-align: center;
+    height: 200px;
+}
+
+   
